@@ -47,7 +47,7 @@ function App() {
       <Header title="TodoSo" />
 
       <Routes>
-        <Route exact path="/TodoSo"
+        <Route path="/TodoSo"
           element={
             <>
               <Addtodo addTodo={addTodo} />
@@ -55,7 +55,7 @@ function App() {
             </>
           }
         />
-        <Route exact path="/about"
+        <Route exact path="/Readme"
           element={<About />}
         />
       </Routes>
